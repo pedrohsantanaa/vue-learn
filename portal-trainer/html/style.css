@@ -1,0 +1,2064 @@
+.design-portal {
+  width: 100%;
+  min-width: 960px;
+  min-height: 1440px;
+  display: flex;
+}
+
+.design-portal .root {
+  height: 1440px;
+  flex: 1;
+  position: relative;
+}
+
+.design-portal .image {
+  width: 960px;
+  height: 81px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .img {
+  width: 960px;
+  height: 57px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .groups {
+  position: absolute;
+  right: 0;
+  bottom: 1312px;
+  width: 960px;
+  height: 49px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .div {
+  margin-bottom: 1px;
+  width: 524px;
+  height: 46px;
+  margin-right: 383px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .groups-2 {
+  width: 94px;
+  height: 44px;
+  margin-right: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.design-portal .text-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 19px;
+  width: 55px;
+  height: 17px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #6b717c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .background {
+  width: 74px;
+  height: 3px;
+  object-fit: cover;
+}
+
+.design-portal .div-wrapper {
+  width: 110px;
+  height: 45px;
+  margin-right: 2px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .text-wrapper-2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+  width: 77px;
+  height: 17px;
+  margin-right: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #818289;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .groups-3 {
+  margin-bottom: 1px;
+  width: 118px;
+  height: 44px;
+  margin-right: 1px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .text-wrapper-3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  width: 86px;
+  height: 17px;
+  margin-right: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #85878e;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .groups-4 {
+  margin-bottom: 4px;
+  width: 93px;
+  height: 42px;
+  margin-right: 1px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .text-wrapper-4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 58px;
+  height: 17px;
+  margin-right: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #84868c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .groups-5 {
+  margin-bottom: 7px;
+  width: 101px;
+  height: 39px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .text-wrapper-5 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  width: 57px;
+  height: 16px;
+  margin-right: 22px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #83868d;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .background-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 960px;
+  height: 519px;
+  object-fit: cover;
+}
+
+.design-portal .background-3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 960px;
+  height: 58px;
+  object-fit: cover;
+}
+
+.design-portal .groups-6 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 960px;
+  height: 1440px;
+}
+
+.design-portal .groups-wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 960px;
+  height: 61px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .groups-7 {
+  width: 960px;
+  height: 48px;
+  position: relative;
+}
+
+.design-portal .background-4 {
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  width: 960px;
+  height: 3px;
+  background-color: #ebe9ef;
+}
+
+.design-portal .button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  right: 180px;
+  bottom: 13px;
+  width: 20px;
+  height: 19px;
+}
+
+.design-portal .background-5 {
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  width: 18px;
+  height: 16px;
+  background-color: #27384c;
+  border-radius: 3.25px;
+  border: 1px solid;
+  border-color: #16263c;
+}
+
+.design-portal .text-wrapper-6 {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 13px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #b2b8bf;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .image-2 {
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .image-3 {
+  width: 15px;
+  height: 16px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .groups-8 {
+  position: absolute;
+  right: 244px;
+  bottom: 5px;
+  width: 524px;
+  height: 41px;
+}
+
+.design-portal .image-4 {
+  width: 17px;
+  height: 16px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .background-6 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 2px;
+  height: 10px;
+  object-fit: cover;
+}
+
+.design-portal .groups-9 {
+  position: absolute;
+  right: 54px;
+  bottom: 0;
+  width: 112px;
+  height: 38px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .text-wrapper-7 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  width: 50px;
+  height: 14px;
+  margin-right: 29px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #9897a0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .groups-10 {
+  position: absolute;
+  right: 167px;
+  bottom: 1px;
+  width: 119px;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .text-wrapper-8 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+  width: 69px;
+  height: 14px;
+  margin-right: 23px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #97969f;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .background-7 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 9px;
+  object-fit: cover;
+}
+
+.design-portal .linhas-de-credit-wrapper {
+  position: absolute;
+  right: 290px;
+  bottom: 1px;
+  width: 135px;
+  height: 38px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .linhas-de-credit {
+  margin-bottom: 12px;
+  width: 86px;
+  height: 14px;
+  margin-right: 17px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #9a9aa1;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .background-8 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 10px;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-9 {
+  right: 460px;
+  bottom: 13px;
+  width: 61px;
+  height: 14px;
+  color: #9c9ca4;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .groups-11 {
+  position: absolute;
+  right: 0;
+  bottom: 24px;
+  width: 960px;
+  height: 496px;
+}
+
+.design-portal .groups-12 {
+  position: absolute;
+  right: 0;
+  bottom: 27px;
+  width: 960px;
+  height: 321px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .groups-13 {
+  width: 863px;
+  height: 311px;
+  margin-right: 1px;
+  position: relative;
+}
+
+.design-portal .groups-14 {
+  position: absolute;
+  right: 0;
+  bottom: 27px;
+  width: 346px;
+  height: 244px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .groups-15 {
+  margin-bottom: 5px;
+  width: 240px;
+  height: 233px;
+  margin-right: 101px;
+  position: relative;
+}
+
+.design-portal .background-9 {
+  position: absolute;
+  right: 3px;
+  bottom: 5px;
+  width: 234px;
+  height: 229px;
+  background-color: #f6f3f7;
+  border: 2px solid;
+  border-color: #edebf1;
+}
+
+.design-portal .image-5 {
+  width: 6px;
+  height: 8px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .image-6 {
+  width: 210px;
+  height: 115px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-10 {
+  position: absolute;
+  right: 172px;
+  bottom: 17px;
+  width: 53px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #8f9e84;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .credito-aspocial {
+  position: absolute;
+  right: 67px;
+  bottom: 40px;
+  width: 158px;
+  height: 37px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #908f95;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 15.8px;
+}
+
+.design-portal .programa-mulhere {
+  position: absolute;
+  right: 22px;
+  bottom: 79px;
+  width: 203px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #707279;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .groups-16 {
+  position: absolute;
+  right: 88px;
+  bottom: 0;
+  width: 522px;
+  height: 311px;
+}
+
+.design-portal .background-10 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 9px;
+  height: 9px;
+  object-fit: cover;
+}
+
+.design-portal .background-11 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 9px;
+  height: 8px;
+  object-fit: cover;
+}
+
+.design-portal .groups-17 {
+  position: absolute;
+  right: 262px;
+  bottom: 30px;
+  width: 266px;
+  height: 229px;
+}
+
+.design-portal .background-12 {
+  position: absolute;
+  right: -3px;
+  bottom: 7px;
+  width: 269px;
+  height: 228px;
+  background-color: #f9f6f9;
+  border: 1px solid;
+  border-color: #eae8ee;
+}
+
+.design-portal .image-7 {
+  width: 5px;
+  height: 8px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .image-8 {
+  width: 229px;
+  height: 115px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-11 {
+  right: 193px;
+  color: #93a38a;
+  position: absolute;
+  bottom: 19px;
+  width: 52px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .programa-de-inse {
+  position: absolute;
+  right: 11px;
+  bottom: 43px;
+  width: 234px;
+  height: 36px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #909095;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16.8px;
+}
+
+.design-portal .fomento-apoia-pe {
+  position: absolute;
+  right: 27px;
+  bottom: 81px;
+  width: 218px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #676c74;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .background-13 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 86px;
+  height: 2px;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-12 {
+  position: absolute;
+  right: 297px;
+  bottom: 275px;
+  width: 99px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #404b59;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .text-wrapper-13 {
+  position: absolute;
+  right: 400px;
+  bottom: 275px;
+  width: 85px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #5d626d;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .groups-18 {
+  position: absolute;
+  right: 622px;
+  bottom: 30px;
+  width: 241px;
+  height: 233px;
+}
+
+.design-portal .background-14 {
+  position: absolute;
+  right: 4px;
+  bottom: 7px;
+  width: 231px;
+  height: 229px;
+  background-color: #faf8f8;
+  border: 2px solid;
+  border-color: #f0eff4;
+}
+
+.design-portal .image-9 {
+  width: 5px;
+  height: 7px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .image-10 {
+  width: 210px;
+  height: 114px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-14 {
+  right: 170px;
+  color: #94a78a;
+  position: absolute;
+  bottom: 19px;
+  width: 52px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .nova-lina-noamen {
+  position: absolute;
+  right: 33px;
+  bottom: 42px;
+  width: 189px;
+  height: 36px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #96969b;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16.5px;
+}
+
+.design-portal .nova-linha-de-cr {
+  position: absolute;
+  right: 45px;
+  bottom: 82px;
+  width: 177px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #656a72;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .groups-19 {
+  position: absolute;
+  right: 57px;
+  bottom: 354px;
+  width: 843px;
+  height: 81px;
+}
+
+.design-portal .background-15 {
+  position: absolute;
+  right: 5px;
+  bottom: 3px;
+  width: 838px;
+  height: 80px;
+  background-color: #f7f5f9;
+  border: 3px solid;
+  border-color: #ece9ef;
+}
+
+.design-portal .image-11 {
+  width: 22px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .image-12 {
+  width: 29px;
+  height: 21px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .image-13 {
+  width: 48px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .image-14 {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .image-15 {
+  width: 81px;
+  height: 38px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .image-16 {
+  width: 35px;
+  height: 31px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-15 {
+  position: absolute;
+  right: 60px;
+  bottom: 33px;
+  width: 81px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #475784;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .text-wrapper-16 {
+  position: absolute;
+  right: 202px;
+  bottom: 36px;
+  width: 112px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Alumni Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #556b91;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .text-wrapper-17 {
+  position: absolute;
+  right: 398px;
+  bottom: 33px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter-BlackItalic", Helvetica;
+  font-weight: 900;
+  font-style: italic;
+  color: #3e567d;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .text-wrapper-18 {
+  position: absolute;
+  right: 446px;
+  bottom: 32px;
+  width: 48px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #214379;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .text-wrapper-19 {
+  position: absolute;
+  right: 683px;
+  bottom: 32px;
+  width: 88px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #4b576c;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .text-wrapper-20 {
+  position: absolute;
+  right: 715px;
+  bottom: 48px;
+  width: 55px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #b0b0b3;
+  font-size: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .background-16 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 87px;
+  height: 2px;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-21 {
+  position: absolute;
+  right: 382px;
+  bottom: 448px;
+  width: 109px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #44515f;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .text-wrapper-22 {
+  position: absolute;
+  right: 496px;
+  bottom: 448px;
+  width: 77px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #636974;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .groups-20 {
+  position: absolute;
+  right: 0;
+  bottom: 519px;
+  width: 960px;
+  height: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-image: url(./img/image-22.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.design-portal .simule-seu-cr-di {
+  display: flex;
+  align-items: center;
+  margin-right: 670px;
+  width: 225px;
+  height: 27px;
+  margin-bottom: 10px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #d5dedd;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .descubra-valores {
+  margin-right: 603px;
+  width: 292px;
+  height: 51px;
+  margin-bottom: 11px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #a2b4b5;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22.8px;
+}
+
+.design-portal .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  margin-right: 722px;
+  width: 177px;
+  height: 44px;
+  position: relative;
+  margin-bottom: 36px;
+}
+
+.design-portal .background-17 {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 169px;
+  height: 36px;
+  background-color: #f08108;
+  border: 1px solid;
+  border-color: #de8217;
+}
+
+.design-portal .acessar-simulado {
+  position: absolute;
+  right: 23px;
+  bottom: 12px;
+  width: 133px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f2c999;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .groups-21 {
+  position: absolute;
+  right: 0;
+  bottom: 724px;
+  width: 960px;
+  height: 281px;
+  background-image: url(./img/background-11.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.design-portal .groups-22 {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  width: 960px;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 13px;
+}
+
+.design-portal .como-solicitar-c {
+  display: flex;
+  align-items: center;
+  margin-right: 351px;
+  width: 257px;
+  height: 28px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #4e5661;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .background-18 {
+  width: 96px;
+  height: 2px;
+  object-fit: cover;
+}
+
+.design-portal .groups-23 {
+  position: absolute;
+  right: 0;
+  bottom: 58px;
+  width: 960px;
+  height: 171px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: -155px;
+}
+
+.design-portal .background-19 {
+  width: 94px;
+  height: 2px;
+  object-fit: cover;
+}
+
+.design-portal .groups-24 {
+  margin-right: 61px;
+  width: 844px;
+  height: 151px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .groups-25 {
+  margin-bottom: 1px;
+  width: 199px;
+  height: 149px;
+  position: relative;
+  margin-right: 3px;
+}
+
+.design-portal .background-20 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 189px;
+  height: 144px;
+  background-color: #f7f2f2;
+  border: 1px solid;
+  border-color: #f4e3dd;
+}
+
+.design-portal .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  right: 30px;
+  bottom: 16px;
+  width: 132px;
+  height: 40px;
+}
+
+.design-portal .background-21 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 123px;
+  height: 31px;
+  background-color: #f1860d;
+  border: 1px solid;
+  border-color: #e5811d;
+}
+
+.design-portal .image-17 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 6px;
+  height: 9px;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-23 {
+  position: absolute;
+  right: 37px;
+  bottom: 13px;
+  width: 68px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f3c999;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .image-18 {
+  width: 37px;
+  height: 38px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .para-pequenos-ne {
+  right: 39px;
+  bottom: 61px;
+  width: 88px;
+  height: 39px;
+  color: #8d8b8c;
+  font-size: 12px;
+  line-height: 18.2px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.design-portal .text-wrapper-24 {
+  position: absolute;
+  right: 18px;
+  bottom: 108px;
+  width: 109px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #616265;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .groups-26 {
+  width: 216px;
+  height: 150px;
+  position: relative;
+  margin-right: 8px;
+}
+
+.design-portal .background-22 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 208px;
+  height: 144px;
+  object-fit: cover;
+}
+
+.design-portal .button-4 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  right: 40px;
+  bottom: 18px;
+  width: 138px;
+  height: 39px;
+}
+
+.design-portal .background-23 {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 130px;
+  height: 32px;
+  background-color: #2465b1;
+  border: 1px solid;
+  border-color: #346eb3;
+}
+
+.design-portal .text-wrapper-25 {
+  right: 40px;
+  bottom: 12px;
+  width: 68px;
+  height: 16px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #a5bfdc;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .image-19 {
+  width: 46px;
+  height: 38px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .expenado-e-inves {
+  position: absolute;
+  right: 60px;
+  bottom: 64px;
+  width: 85px;
+  height: 37px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #757c84;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 16.3px;
+}
+
+.design-portal .text-wrapper-26 {
+  position: absolute;
+  right: 57px;
+  bottom: 106px;
+  width: 86px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #5f5f65;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .groups-27 {
+  margin-bottom: 4px;
+  width: 211px;
+  height: 147px;
+  position: relative;
+  margin-right: 9px;
+}
+
+.design-portal .background-24 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 209px;
+  height: 143px;
+  object-fit: cover;
+}
+
+.design-portal .button-5 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  right: 39px;
+  bottom: 13px;
+  width: 136px;
+  height: 40px;
+}
+
+.design-portal .background-25 {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 128px;
+  height: 31px;
+  background-color: #ef840b;
+  border: 1px solid;
+  border-color: #e2760f;
+}
+
+.design-portal .text-wrapper-27 {
+  right: 41px;
+  bottom: 13px;
+  width: 67px;
+  height: 16px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #f3cc9c;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .image-20 {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-28 {
+  position: absolute;
+  right: 58px;
+  bottom: 78px;
+  width: 88px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #8b8177;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .text-wrapper-29 {
+  position: absolute;
+  right: 38px;
+  bottom: 102px;
+  width: 110px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #606063;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .groups-28 {
+  margin-bottom: 3px;
+  width: 198px;
+  height: 148px;
+  position: relative;
+}
+
+.design-portal .background-26 {
+  position: absolute;
+  right: 1px;
+  bottom: 2px;
+  width: 195px;
+  height: 144px;
+  background-color: #f5eeed;
+  border: 2px solid;
+  border-color: #efd8ca;
+}
+
+.design-portal .button-6 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  right: 35px;
+  bottom: 15px;
+  width: 131px;
+  height: 39px;
+}
+
+.design-portal .background-27 {
+  position: absolute;
+  right: 4px;
+  bottom: 3px;
+  width: 123px;
+  height: 32px;
+  background-color: #f0840c;
+  border: 1px solid;
+  border-color: #e7882b;
+}
+
+.design-portal .text-wrapper-30 {
+  right: 37px;
+  bottom: 12px;
+  width: 68px;
+  height: 17px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #f3ca97;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .image-21 {
+  width: 49px;
+  height: 36px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .empreendimentos {
+  position: absolute;
+  right: 15px;
+  bottom: 61px;
+  width: 108px;
+  height: 38px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #858081;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 16.3px;
+}
+
+.design-portal .text-wrapper-31 {
+  position: absolute;
+  right: 49px;
+  bottom: 106px;
+  width: 74px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #636164;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .linhas-de-cr-dit {
+  position: absolute;
+  right: 335px;
+  bottom: 231px;
+  width: 209px;
+  height: 27px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #45505e;
+  font-size: 24px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .text-wrapper-32 {
+  position: absolute;
+  right: 549px;
+  bottom: 231px;
+  width: 78px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #646a76;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .image-22 {
+  width: 960px;
+  height: 308px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .groups-29 {
+  position: absolute;
+  right: 0;
+  bottom: 1005px;
+  width: 316px;
+  height: 435px;
+}
+
+.design-portal .image-23 {
+  width: 314px;
+  height: 306px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .button-7 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  right: 177px;
+  bottom: 113px;
+  width: 112px;
+  height: 39px;
+}
+
+.design-portal .background-28 {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 108px;
+  height: 32px;
+  background-color: #f3eee7;
+  border-radius: 1.75px;
+  border: 1px solid;
+  border-color: #817e73;
+}
+
+.design-portal .image-24 {
+  width: 6px;
+  height: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-33 {
+  right: 33px;
+  bottom: 13px;
+  width: 64px;
+  height: 15px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #cf9461;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .mulheres-empreen {
+  position: absolute;
+  right: 37px;
+  bottom: 192px;
+  width: 249px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #d4d2ce;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .text-wrapper-34 {
+  position: absolute;
+  right: 182px;
+  bottom: 229px;
+  width: 103px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #d8d7d6;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .image-25 {
+  width: 312px;
+  height: 306px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .groups-30 {
+  position: absolute;
+  right: 281px;
+  bottom: 1004px;
+  width: 679px;
+  height: 309px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .groups-31 {
+  margin-bottom: 1px;
+  width: 311px;
+  height: 307px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.design-portal .text-wrapper-35 {
+  margin-right: 111px;
+  width: 162px;
+  height: 36px;
+  margin-bottom: 2px;
+  color: #d5dddd;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .text-wrapper-36 {
+  display: flex;
+  align-items: center;
+  margin-right: 105px;
+  width: 167px;
+  height: 27px;
+  margin-bottom: 6px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0dcdd;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .text-wrapper-37 {
+  display: flex;
+  align-items: center;
+  margin-right: 147px;
+  width: 126px;
+  height: 27px;
+  margin-bottom: 13px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #dee5e6;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.design-portal .financlamento-pa {
+  margin-right: 64px;
+  width: 209px;
+  height: 38px;
+  margin-bottom: 11px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #a6bdc2;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 15.4px;
+}
+
+.design-portal .button-8 {
+  all: unset;
+  box-sizing: border-box;
+  margin-right: 136px;
+  width: 142px;
+  height: 42px;
+  position: relative;
+  margin-bottom: 51px;
+}
+
+.design-portal .background-29 {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 135px;
+  height: 34px;
+  background-color: #f1850c;
+}
+
+.design-portal .text-wrapper-38 {
+  position: absolute;
+  right: 22px;
+  bottom: 13px;
+  width: 100px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f1c895;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .background-30 {
+  width: 128px;
+  height: 5px;
+  object-fit: cover;
+}
+
+.design-portal .groups-32 {
+  width: 332px;
+  height: 309px;
+  position: relative;
+  margin-right: 36px;
+}
+
+.design-portal .image-26 {
+  width: 333px;
+  height: 306px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .background-31 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 11px;
+  height: 10px;
+  object-fit: cover;
+}
+
+.design-portal .background-32 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 13px;
+  height: 12px;
+  object-fit: cover;
+}
+
+.design-portal .background-33 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 11px;
+  height: 12px;
+  object-fit: cover;
+}
+
+.design-portal .button-9 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  right: 189px;
+  bottom: 113px;
+  width: 116px;
+  height: 38px;
+}
+
+.design-portal .background-34 {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 109px;
+  height: 31px;
+  background-color: #f8f1e4;
+  border-radius: 2.25px 2.25px 2.5px 1.5px;
+  border: 1px solid;
+  border-color: #7f7c67;
+}
+
+.design-portal .image-27 {
+  width: 7px;
+  height: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .text-wrapper-39 {
+  right: 34px;
+  bottom: 12px;
+  width: 63px;
+  height: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ca955e;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .text-wrapper-40 {
+  right: 137px;
+  bottom: 193px;
+  width: 162px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  color: #d4d7cc;
+  font-size: 21px;
+  line-height: normal;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.design-portal .text-wrapper-41 {
+  position: absolute;
+  right: 140px;
+  bottom: 229px;
+  width: 161px;
+  height: 28px;
+  color: #e8eaed;
+  font-size: 25px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .background-35 {
+  position: absolute;
+  right: 0;
+  bottom: 1360px;
+  width: 960px;
+  height: 3px;
+  background-color: #f5f3f7;
+}
+
+.design-portal .groups-33 {
+  position: absolute;
+  right: 1px;
+  bottom: 1360px;
+  width: 960px;
+  height: 79px;
+}
+
+.design-portal .image-28 {
+  width: 16px;
+  height: 17px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.design-portal .acceso-a-informa {
+  position: absolute;
+  right: 88px;
+  bottom: 30px;
+  width: 94px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #888c96;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .text-wrapper-42 {
+  position: absolute;
+  right: 194px;
+  bottom: 31px;
+  width: 41px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #878b94;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .text-wrapper-43 {
+  right: 250px;
+  bottom: 31px;
+  width: 59px;
+  height: 15px;
+  color: #8f929a;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .background-36 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 2px;
+  height: 11px;
+  object-fit: cover;
+}
+
+.design-portal .linhas-de-credit-2 {
+  position: absolute;
+  right: 328px;
+  bottom: 31px;
+  width: 86px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #8b8d97;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.design-portal .background-37 {
+  position: absolute;
+  right: 0;
+  bottom: 76px;
+  width: 960px;
+  height: 3px;
+  background-color: #eceaef;
+}
+
+.design-portal .logo {
+  position: absolute;
+  top: 13px;
+  left: 59px;
+  width: 157px;
+  height: 52px;
+  aspect-ratio: 3.02;
+  object-fit: cover;
+}
