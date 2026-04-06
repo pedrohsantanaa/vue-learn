@@ -24,14 +24,14 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
-import { DivSubsection } from "./DivSubsection";
-import { DivWrapperSubsection } from "./DivWrapperSubsection";
-import { Groups1Subsection } from "./Groups1Subsection";
-import { Groups2Subsection } from "./Groups2Subsection";
-import { Groups3Subsection } from "./Groups3Subsection";
-import { GroupsSubsection } from "./GroupsSubsection";
-import { GroupsWrapperSubsection } from "./GroupsWrapperSubsection";
-import { SectionComponentNodeSubsection } from "./SectionComponentNodeSubsection";
+import { DivSubsection } from './DivSubsection.vue';
+import { DivWrapperSubsection } from "./DivWrapperSubsection.vue";
+import { Groups1Subsection } from "./Groups1Subsection.vue";
+import { Groups2Subsection } from "./Groups2Subsection.vue";
+import { Groups3Subsection } from "./Groups3Subsection.vue";
+import { GroupsSubsection } from "./GroupsSubsection.vue";
+import { GroupsWrapperSubsection } from "./GroupsWrapperSubsection.vue";
+import { SectionComponentNodeSubsection } from "./SectionComponentNodeSubsection.vue";
 import background13 from "./background-13.png";
 import background14 from "./background-14.png";
 import image10 from "./image-10.png";
