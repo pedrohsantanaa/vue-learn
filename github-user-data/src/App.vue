@@ -1,15 +1,11 @@
-<script>
-import OptionsApi from './components/OptionsApi.vue';
+<script setup>
+import CompositionApi from './components/CompositionApi.vue';
 
-export default {
-  components: {
-    OptionsApi
-  }
-}
+
 </script>
 
 <template>
-  <OptionsApi />
+  <CompositionApi />
 </template>
 
 <style>
@@ -30,6 +26,4 @@ body {
   background-color: #1c1a1d;
   color: #e5e5e5;
 }
-
-
 </style>
