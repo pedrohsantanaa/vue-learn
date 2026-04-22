@@ -15,7 +15,8 @@ const state = reactive({
     location: ''
 })
 
-async function fetchGithubUser() {
+async function fetchGithubUser(ev) {
+    ev.preventDefault()
     const res = await fetch(`https://api.github.com/users/${searchInput.value}`)
     const { login, name, bio, company, avatar_url, location } = await res.json()
 
@@ -49,10 +50,14 @@ const reposCountMessage = computed(() => {
 
 <template>
     <div class="main">
-
         <h2>GitHub User Data</h2>
-        <input type="text" v-model="searchInput">
-        <button v-on:click="fetchGithubUser()">Carregar Usuário</button>
+        <p>Pesquisando por: <strong>https://api.github.com/users/{{ searchInput }}</strong></p>
+        <form @submit="fetchGithubUser">
+            <input type="text" v-model="searchInput">
+            <button>Carregar Usuário</button>
+        </form>
+
+
         <div v-if="state.login !== ''">
             <img v-bind:src="state.avatar_url">
             <h1>{{ state.name }}</h1>
