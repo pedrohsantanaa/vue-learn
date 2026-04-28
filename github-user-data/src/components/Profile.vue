@@ -1,5 +1,8 @@
 <script setup>
-import { reactive, ref, computed } from 'vue';
+import { reactive, ref, computed, onMounted, onUpdated, onUnmounted } from 'vue';
+import UserInfo from './UserInfo.vue';
+import Repository from './Repository.vue';
+import Form from './Form.vue';
 
 const searchInput = ref('')
 
@@ -15,9 +18,8 @@ const state = reactive({
     location: ''
 })
 
-async function fetchGithubUser(ev) {
-    ev.preventDefault()
-    const res = await fetch(`https://api.github.com/users/${searchInput.value}`)
+async function fetchGithubUser(username) {
+    const res = await fetch(`https://api.github.com/users/${username}`)
     const { login, name, bio, company, avatar_url, location } = await res.json()
 
     state.login = login,
@@ -46,36 +48,39 @@ const reposCountMessage = computed(() => {
 
 })
 
+onMounted(() => {
+    console.log("O Componente foi montado.")
+})
+
+onUpdated(() => {
+    console.log("O Componente foi atualizado.")
+})
+
+onUnmounted(() => {
+    console.log("O Componente foi desmontado")
+})
+
 </script>
 
 <template>
     <div class="main">
-        <h2>GitHub User Data</h2>
-        <p>Pesquisando por: <strong>https://api.github.com/users/{{ searchInput }}</strong></p>
-        <form @submit="fetchGithubUser">
-            <input type="text" v-model="searchInput">
-            <button>Carregar Usuário</button>
-        </form>
-
+        <slot></slot>
+       
+        <Form @form-submit="fetchGithubUser"/>
 
         <div v-if="state.login !== ''">
-            <img v-bind:src="state.avatar_url">
-            <h1>{{ state.name }}</h1>
-            <h2>{{ state.company }}</h2>
-            <h3>{{ state.location }}</h3>
-            <span>{{ state.bio }}</span>
-            <span>@{{ state.login }}</span>
+            <UserInfo :login="state.login" :name="state.name" :company="state.company" :avatar_url="state.avatar_url"
+                :bio="state.bio" :location="state.location" />
         </div>
 
         <section v-if="state.repos.length > 0">
             <h2>{{ reposCountMessage }}</h2>
             <article v-for="repo in state.repos">
-                <h3>{{ repo.full_name }}</h3>
-                <p>{{ repo.description }}</p>
-                <a :href="repo.html_url" target="_blank">Ver no Github</a>
+                <Repository :full_name="repo.full_name" :description="repo.description" :html_url="repo.html_url" />
             </article>
 
         </section>
+        <slot name="footer"></slot>
 
     </div>
 
@@ -96,10 +101,6 @@ button {
     border-radius: .25rem;
 }
 
-img {
-    border-radius: 80%;
-    width: 50%;
-}
 
 /* Specifics */
 input {

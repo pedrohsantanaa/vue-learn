@@ -1,11 +1,23 @@
 <script setup>
-import CompositionApi from './components/CompositionApi.vue';
+import { ref } from 'vue'
+import Profile from './components/Profile.vue';
 
+const isOpen = ref(true)
 
 </script>
 
 <template>
-  <CompositionApi />
+  <input type="checkbox" v-model="isOpen">{{ isOpen }}
+  <Profile v-if="isOpen">
+    <h2>GitHub User Data</h2>
+
+    <template v-slot:footer>
+      <footer>
+        Desenvolvido por phtech
+      </footer>
+
+    </template>
+  </Profile>
 </template>
 
 <style>
@@ -25,5 +37,10 @@ import CompositionApi from './components/CompositionApi.vue';
 body {
   background-color: #1c1a1d;
   color: #e5e5e5;
+}
+
+footer{
+  margin-top: 5rem;
+  color: cornflowerblue;
 }
 </style>
